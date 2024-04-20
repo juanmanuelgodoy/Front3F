@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* se puede cambiar por content-box, ver como queda mejor */
+}
+Body {background-color: 	
+    rgb(85,194,96, 0.3)}
+header{text-align: center;}
+
+/* Estilos para pantallas pequeñas (hasta 768px) */
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+        padding: 10px;
+        background-color: lightblue; /* Color de fondo */
+
+    }
+
+}
+
+
+/* Estilos para pantallas medianas (769px a 1279px) */
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+
+    .container {
+        width: 90%;
+        padding: 20px;
+        background-color: lightgreen; /* Color de fondo */
+
+    }
+
+}
+
+/* Estilos para pantallas grandes (más de 1280px) */
+@media screen and (min-width: 1280px) {
+
+    .container {
+    width: 80%;
+    padding: 30px;
+    background-color: lightcoral; /* Color de fondo */
+    }
+}
+/*Link sin subrayar*/
+a {
+    text-decoration: none;
+}
