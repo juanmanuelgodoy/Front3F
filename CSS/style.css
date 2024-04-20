@@ -9,40 +9,6 @@ Body {background-color: rgb(85,194,96, 0.8);}
 #frutales{background-color: #8fbe8f;}
 header{text-align: center;}
 
-/* Estilos para pantallas pequeñas (hasta 768px) */
-@media screen and (max-width: 768px) {
-
-    .container {
-        width: 100%;
-        padding: 10px;
-        background-color: lightblue; /* Color de fondo */
-
-    }
-
-}
-
-
-/* Estilos para pantallas medianas (769px a 1279px) */
-@media screen and (min-width: 769px) and (max-width: 1279px) {
-
-    .container {
-        width: 90%;
-        padding: 20px;
-        background-color: lightgreen; /* Color de fondo */
-
-    }
-
-}
-
-/* Estilos para pantallas grandes (más de 1280px) */
-@media screen and (min-width: 1280px) {
-
-    .container {
-    width: 80%;
-    padding: 30px;
-    background-color: lightcoral; /* Color de fondo */
-    }
-}
 /*Footer*/
 footer{
     position: fixed;
@@ -83,4 +49,51 @@ a {
 }
 h2{
     margin-bottom: 30px;
+}
+.cuidadoConsejo{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 0px;
+    background-color: #55c260;
+    color: black;
+    width: auto;
+    max-width: 95% !important;
+    height: 200px;
+}
+
+/* Estilos para pantallas pequeñas (hasta 768px) */
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+        padding: 10px;
+        background-color: lightblue; /* Color de fondo */
+
+    }
+
+}
+
+
+/* Estilos para pantallas medianas (769px a 1279px) */
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+
+    .container {
+        width: 90%;
+        padding: 20px;
+        background-color: lightgreen; /* Color de fondo */
+
+    }
+
+}
+
+/* Estilos para pantallas grandes (más de 1280px) */
+@media screen and (min-width: 1280px) {
+
+    .container {
+    width: 80%;
+    padding: 30px;
+    background-color: lightcoral; /* Color de fondo */
+    }
 }
