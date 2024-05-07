@@ -9,6 +9,14 @@ Body {background-color: rgb(85,194,96, 0.8);}
 #frutales{background-color: #8fbe8f;}
 header{text-align: center;}
 
+/*Nav*/
+nav{
+    background: #55c260; 
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 12px;
+}   
+
 /*Footer*/
 footer{
     position: fixed;

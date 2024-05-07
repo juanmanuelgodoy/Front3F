@@ -7,6 +7,14 @@ Body {background-color:
     rgb(85,194,96, 0.3)}
 header{text-align: center;}
 
+/*Nav*/
+nav{
+    background: #55c260; 
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 12px;
+} 
+
 /* Estilos para pantallas pequeñas (hasta 768px) */
 @media screen and (max-width: 768px) {
 
@@ -45,3 +53,6 @@ header{text-align: center;}
 a {
     text-decoration: none;
 }
+
+
+

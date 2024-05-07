@@ -44,3 +44,12 @@ header{text-align: center;}
 a {
     text-decoration: none;
 }
+
+/*Nav*/
+nav{
+    background: #55c260; 
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 12px;
+} 
+
