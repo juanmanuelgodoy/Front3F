@@ -16,6 +16,14 @@ header{text-align: center;}
 
     }
 
+/*Nav*/
+    nav{
+        background: #55c260; 
+        padding: 5px 20px;
+        text-align: center;
+        font-size: 12px;
+    }
+
 }
 
 
@@ -29,6 +37,13 @@ header{text-align: center;}
 
     }
 
+/*Nav*/
+    nav{
+        background: #55c260; 
+        padding: 5px 20px;
+        text-align: center;
+        font-size: 16px;
+    }
 }
 
 /* Estilos para pantallas grandes (más de 1280px) */
@@ -39,7 +54,16 @@ header{text-align: center;}
     padding: 30px;
     background-color: lightcoral; /* Color de fondo */
     }
+
+/*Nav*/
+    nav{
+    background: #55c260; 
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 16px;
+    }
 }
+
 /*Link sin subrayar*/
 a {
     text-decoration: none;
@@ -50,6 +74,6 @@ nav{
     background: #55c260; 
     padding: 5px 20px;
     text-align: center;
-    font-size: 12px;
-} 
+    font-size: 16px;
+}  
 
