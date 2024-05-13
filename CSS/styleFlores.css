@@ -64,6 +64,20 @@ header{text-align: center;}
     }
 }
 
+.fotoFlores{
+    max-width: 40%;
+    height: auto;
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+.columnaFlores {
+    display: flex;
+}
+
 /*Link sin subrayar*/
 a {
     text-decoration: none;
