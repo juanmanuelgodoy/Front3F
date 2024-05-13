@@ -24,6 +24,22 @@ header {
     display: flex;
 }
 
+/*Estilo para los párrafos*/
+p.indent {
+  text-indent: 30px;
+  text-align: justify;
+  padding: 1%;
+}
+
+/*Estilo titulos*/
+h2{
+  padding-left: 2%;
+}
+
+h3{
+  padding-left: 3%;
+}
+
 /* Estilos para pantallas pequeñas (hasta 768px) */
 @media screen and (max-width: 768px) {
   .container {
