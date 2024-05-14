@@ -13,7 +13,7 @@ header{text-align: center;}
 
 h1{
     text-align: center;
-    
+    text-decoration: none;
 }
 
 /*Footer*/
@@ -22,6 +22,20 @@ h1{
         bottom: 0;
         font-size: 16px;
         width: 100%;
+    }
+
+/*Google fonts .pacifico-regular*/
+    h2{
+        font-family: "Pacifico", cursive;
+        font-weight: 300;
+        font-size: 40px;
+        font-style: normal;
+        text-align: center;
+    }
+
+/*Link sin subrayar*/
+    a {
+        text-decoration: none;
     }
 
 /* Estilos para pantallas pequeñas (hasta 768px) */
@@ -82,10 +96,7 @@ h1{
     }
 
 }
-/*Link sin subrayar*/
-a {
-    text-decoration: none;
-}
+
 
 
 

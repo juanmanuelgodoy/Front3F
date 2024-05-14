@@ -40,6 +40,11 @@ h3{
   padding-left: 3%;
 }
 
+/*Link sin subrayar*/
+a {
+  text-decoration: none;
+}
+
 /* Estilos para pantallas pequeñas (hasta 768px) */
 @media screen and (max-width: 768px) {
   .container {
@@ -94,7 +99,4 @@ h3{
     font-size: 16px;
   }
 }
-/*Link sin subrayar*/
-a {
-  text-decoration: none;
-}
+

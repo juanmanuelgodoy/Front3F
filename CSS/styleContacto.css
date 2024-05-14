@@ -21,6 +21,11 @@ h2{
     padding-left: 2%;
 }
 
+/*Link sin subrayar*/
+a {
+    text-decoration: none;
+}
+
 /* Estilos para pantallas pequeñas (hasta 768px) */
 @media screen and (max-width: 768px) {
 
@@ -105,10 +110,7 @@ ul{
         margin-left: 10%;
     }
 }
-/*Link sin subrayar*/
-a {
-    text-decoration: none;
-}
+
 
 
 
