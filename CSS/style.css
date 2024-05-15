@@ -5,7 +5,14 @@
 }
 
 Body {
-    background-color: rgb(85,194,96, 0.8);
+    background-image: url(/Imagenes/Fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 #verduras{
@@ -170,5 +177,12 @@ div{
         width: 33%;
         max-width: 250px;
         height: 200px;
+    }
+}
+/* Estilos para el modo oscuro */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
     }
 }
