@@ -179,10 +179,10 @@ div{
         height: 200px;
     }
 }
-/* Estilos para el modo oscuro */
+/* Estilos para el modo oscuro 
 @media (prefers-color-scheme: dark) {
     body {
         background-color: black;
         color: white;
     }
-}
+}*/
