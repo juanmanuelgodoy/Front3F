@@ -3,61 +3,69 @@
     padding: 0;
     box-sizing: border-box; /* se puede cambiar por content-box, ver como queda mejor */
 }
-Body {background-color: rgb(85,194,96, 0.8);}
-#verduras{background-color: #9aca5f;}
-#flores{background-color: #8ec34c;}
-#frutales{background-color: #8fbe8f;}
-header{text-align: center;}
 
-/*Nav*/
-nav{
-    background: #55c260; 
-    padding: 5px 20px;
+Body {
+    background-image: url(/Imagenes/Fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#verduras{
+    background-color: #9aca5f;
+}
+
+#flores{
+    background-color: #8ec34c;
+}
+
+#frutales{
+    background-color: #8fbe8f;
+}
+
+header{
     text-align: center;
-    font-size: 12px;
-}   
+}
 
 /*Footer*/
 footer{
-    position: fixed;
+    position: static;
     bottom: 0;
     font-size: 16px;
 }
+
 /*Link sin subrayar*/
 a {
     text-decoration: none;
 }
 
-.fieldsetIndex{
-    border: none;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-    margin-top: 0px;
-    background-color: #55c260;
-    color: black;
-    width: auto;
-    max-width: 250px;
-    height: 200px;
-}
-    /* Estilo para la leyenda del fieldset */
+/* Estilo para la leyenda del fieldset */
     legend {
         font-weight: bold;
         color: #333;
+        text-align: center;
 }
-      /* Estilo para la lista desordenada dentro del fieldset */
+
+/* Estilo para la lista desordenada dentro del fieldset */
     ul {
         list-style-type: none;
         padding: 0;
         margin: 0;
 }
-      /* Estilo para los elementos de la lista */
+
+/* Estilo para los elementos de la lista */
     li {
         margin-bottom: 10px;
 }
+
 h2{
     margin-bottom: 30px;
 }
+
 .cuidadoConsejo{
     border: none;
     border-radius: 10px;
@@ -71,37 +79,110 @@ h2{
     height: 150px;
 }
 
+/* Estilo Contáctanos*/
+.contactanos{
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+    margin: 10px;
+}
+
+div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 /* Estilos para pantallas pequeñas (hasta 768px) */
 @media screen and (max-width: 768px) {
-
     .container {
         width: 100%;
         padding: 10px;
         background-color: lightblue; /* Color de fondo */
-
     }
 
+    nav{
+        background: #55c260; 
+        padding: 5px 20px;
+        text-align: center;
+        font-size: 12px;
+    } 
+    
+    .fieldsetIndex{
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        margin-top: 0px;
+        background-color: #55c260;
+        color: black;
+        width: 20%;
+        max-width: 250px;
+        height: 250px;
+    }
 }
-
 
 /* Estilos para pantallas medianas (769px a 1279px) */
 @media screen and (min-width: 769px) and (max-width: 1279px) {
-
     .container {
         width: 90%;
         padding: 20px;
         background-color: lightgreen; /* Color de fondo */
-
     }
 
+    nav{
+        background: #55c260; 
+        padding: 5px 20px;
+        text-align: center;
+        font-size: 16px;
+    } 
+    
+    .fieldsetIndex{
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        margin-top: 0px;
+        background-color: #55c260;
+        color: black;
+        width: 33%;
+        max-width: 250px;
+        height: 200px;
+    }
 }
 
 /* Estilos para pantallas grandes (más de 1280px) */
 @media screen and (min-width: 1280px) {
-
     .container {
     width: 80%;
     padding: 30px;
     background-color: lightcoral; /* Color de fondo */
     }
+
+    nav{
+        background: #55c260; 
+        padding: 5px 20px;
+        text-align: center;
+        font-size: 16px;
+    } 
+
+    .fieldsetIndex{
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        margin-top: 0px;
+        background-color: #55c260;
+        color: black;
+        width: 33%;
+        max-width: 250px;
+        height: 200px;
+    }
 }
+/* Estilos para el modo oscuro 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}*/
