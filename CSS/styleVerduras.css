@@ -3,15 +3,17 @@
   padding: 0;
   box-sizing: border-box; /* se puede cambiar por content-box, ver como queda mejor */
 }
+
 #verduras {
   background-color: #9aca5f;
 }
+
 header {
   text-align: center;
 }
 
 .fotoVerdura {
-    max-width: 40%;
+    max-width: 33%;
     height: auto;
     margin: 20px;
     padding: 5px;
@@ -20,8 +22,10 @@ header {
     text-align: center;
 }
 
-.columnaVerdura {
-    display: flex;
+div.columnaVerdura {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 /*Estilo para los párrafos*/

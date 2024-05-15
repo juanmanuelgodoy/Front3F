@@ -12,6 +12,7 @@ Body {
 #contacto {
     background-color: #9aca5f;
 }
+
 header{
     text-align: center;
 }
@@ -26,14 +27,21 @@ a {
     text-decoration: none;
 }
 
+/*Estilo listas*/
+ul{
+    list-style-type: none;
+}
+
+#enviar{
+    padding-left: 50%;
+}
+
 /* Estilos para pantallas pequeñas (hasta 768px) */
 @media screen and (max-width: 768px) {
-
     .container {
         width: 100%;
         padding: 10px;
         background-color: lightblue; /* Color de fondo */
-
     }
 
 /*Nav*/
@@ -49,26 +57,14 @@ a {
         width: 80%;
         margin-left: 10%;
     }
-
-}
-
-/*Estilo listas*/
-ul{
-    list-style-type: none;
-}
-
-#enviar{
-    padding-left: 50%;
 }
 
 /* Estilos para pantallas medianas (769px a 1279px) */
 @media screen and (min-width: 769px) and (max-width: 1279px) {
-
     .container {
         width: 90%;
         padding: 20px;
         background-color: lightgreen; /* Color de fondo */
-
     }
 
 /*Nav*/
@@ -84,12 +80,10 @@ ul{
         width: 80%;
         margin-left: 10%;
     }
-
 }
 
 /* Estilos para pantallas grandes (más de 1280px) */
 @media screen and (min-width: 1280px) {
-
     .container {
     width: 80%;
     padding: 30px;
@@ -110,7 +104,3 @@ ul{
         margin-left: 10%;
     }
 }
-
-
-
-

@@ -3,13 +3,16 @@
     padding: 0;
     box-sizing: border-box; /* se puede cambiar por content-box, ver como queda mejor */
 }
+
 Body {
     background-color: rgb(85,194,96, 0.3);
     margin: 0;
     padding: 0;
 }
 
-header{text-align: center;}
+header{
+    text-align: center;
+}
 
 h1{
     text-align: center;
@@ -17,35 +20,33 @@ h1{
 }
 
 /*Footer*/
-    footer{
-        position: fixed;
-        bottom: 0;
-        font-size: 16px;
-        width: 100%;
-    }
+footer{
+    position: fixed;
+    bottom: 0;
+    font-size: 16px;
+    width: 100%;
+}
 
 /*Google fonts .pacifico-regular*/
-    h2{
-        font-family: "Pacifico", cursive;
-        font-weight: 300;
-        font-size: 40px;
-        font-style: normal;
-        text-align: center;
-    }
+h2{
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-size: 40px;
+    font-style: normal;
+    text-align: center;
+}
 
 /*Link sin subrayar*/
-    a {
-        text-decoration: none;
-    }
+a {
+    text-decoration: none;
+}
 
 /* Estilos para pantallas pequeñas (hasta 768px) */
 @media screen and (max-width: 768px) {
-
     .container {
         width: 100%;
         padding: 10px;
         background-color: lightblue; /* Color de fondo */
-
     }
 
 /*Nav*/
@@ -57,15 +58,12 @@ h1{
     }
 }
 
-
 /* Estilos para pantallas medianas (769px a 1279px) */
 @media screen and (min-width: 769px) and (max-width: 1279px) {
-
     .container {
         width: 90%;
         padding: 20px;
         background-color: lightgreen; /* Color de fondo */
-
     }
 
 /*Nav*/
@@ -75,12 +73,10 @@ h1{
     text-align: center;
     font-size: 16px;
     }
-
 }
 
 /* Estilos para pantallas grandes (más de 1280px) */
 @media screen and (min-width: 1280px) {
-
     .container {
     width: 80%;
     padding: 30px;
@@ -94,9 +90,4 @@ h1{
     text-align: center;
     font-size: 16px;
     }
-
 }
-
-
-
-
